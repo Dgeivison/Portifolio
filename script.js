@@ -63,6 +63,25 @@
     requestAnimationFrame(step);
   };
 
+  /* ---------- Indicadores: calculados a partir dos dados reais do site ---------- */
+  const counts = {
+    projects: (window.PROJECTS || []).length,
+    skills: $$(".toolgroup").length,
+    jobs: $$(".step__dot:not(.step__dot--edu)").length
+  };
+  $$("[data-source]").forEach((el) => {
+    const n = counts[el.dataset.source];
+    if (n) { el.dataset.count = n; el.textContent = n; }
+  });
+
+  /* ---------- Currículo: o botão só aparece se curriculo.pdf existir ---------- */
+  const cvBtn = $("#cvBtn");
+  if (cvBtn) {
+    fetch("curriculo.pdf", { method: "HEAD" })
+      .then((r) => { if (r.ok && (r.headers.get("content-type") || "").includes("pdf")) cvBtn.hidden = false; })
+      .catch(() => {});
+  }
+
   /* ---------- Projetos: cards, filtro e modal ---------- */
   const grid = $("#projectGrid");
   const modal = $("#modal");
@@ -268,7 +287,7 @@
   const originalTitle = document.title;
   document.addEventListener("visibilitychange", () => {
     document.title = document.hidden
-      ? "👋 Volta aqui, tem mais projetos!"
+      ? "Volte para ver os projetos"
       : originalTitle;
   });
 

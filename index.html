@@ -5,18 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <meta name="theme-color" content="#0d0c0a">
-  <title>Dgeivison Dalmasso | Dev</title>
-  <meta name="description" content="Portfólio de Dgeivison Dalmasso: automação RPA, sistemas web, inteligência artificial e dashboards. Campo Grande/MS.">
-  <meta property="og:title" content="Dgeivison Dalmasso — DEV">
+  <title>Dgeivison Dalmasso | TI, Automação e Desenvolvimento de Sistemas</title>
+  <meta name="description" content="Portfólio de Dgeivison Dalmasso, estudante de Análise e Desenvolvimento de Sistemas: Tecnologia da Informação, automação RPA, sistemas web e inteligência artificial. Campo Grande/MS.">
+  <meta name="author" content="Dgeivison Dalmasso">
+  <meta property="og:title" content="Dgeivison Dalmasso | TI, Automação e Desenvolvimento de Sistemas">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Dgeivison Dalmasso">
+  <meta name="twitter:title" content="Dgeivison Dalmasso | TI, Automação e Desenvolvimento de Sistemas">
+  <meta name="twitter:description" content="Transformo problemas operacionais em soluções tecnológicas.">
   <meta property="og:image" content="https://dgeivisondalmasso.vercel.app/og.png">
   <meta property="og:url" content="https://dgeivisondalmasso.vercel.app/">
   <meta name="twitter:card" content="summary_large_image">
-  <meta property="og:description" content="Automação, sistemas e inteligência artificial para melhorar processos empresariais.">
+  <meta property="og:description" content="Transformo problemas operacionais em soluções tecnológicas: TI, automação, sistemas e inteligência artificial.">
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Dgeivison Dalmasso","jobTitle":"Estudante de Análise e Desenvolvimento de Sistemas","email":"mailto:dgdalmasso@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Campo Grande","addressRegion":"MS","addressCountry":"BR"},"alumniOf":"Anhanguera","sameAs":["https://www.linkedin.com/in/dgeivison-dalmasso-1413a53ba/"]}</script>
 </head>
 <body>
   <div class="progress" id="progress" aria-hidden="true"></div>
@@ -27,11 +33,12 @@
       <nav class="nav__links" id="menu" aria-label="Principal">
         <a href="#sobre"><span class="num">01.</span> Sobre</a>
         <a href="#atuacao"><span class="num">02.</span> Atuação</a>
-        <a href="#stack"><span class="num">03.</span> Stack</a>
-        <a href="#carreira"><span class="num">04.</span> Trajetória</a>
+        <a href="#stack"><span class="num">03.</span> Competências</a>
+        <a href="#carreira"><span class="num">04.</span> Experiência</a>
         <a href="#projetos"><span class="num">05.</span> Projetos</a>
-        <a href="#objetivos"><span class="num">06.</span> Objetivos</a>
-        <a href="#contato"><span class="num">07.</span> Contato</a>
+        <a href="#formacao"><span class="num">06.</span> Formação</a>
+        <a href="#objetivos"><span class="num">07.</span> Objetivo</a>
+        <a href="#contato"><span class="num">08.</span> Contato</a>
         <a href="#contato" class="btn btn--outline nav__cta">Contratar</a>
       </nav>
       <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
@@ -48,12 +55,18 @@
         <div class="hero__text">
           <div class="badge"><span class="dot"></span> Disponível para oportunidades e projetos</div>
           <h1 class="hero__name" id="heroName">Dgeivison Dalmasso</h1>
-          <p class="hero__role">Desenvolvedor de Soluções Tecnológicas</p>
+          <p class="hero__role">Tecnologia da Informação | Automação | Desenvolvimento de Sistemas</p>
           <p class="hero__typer">Eu crio <span class="typer" id="typer"></span><span class="caret"></span></p>
-          <p class="hero__lead">Estudante de Análise e Desenvolvimento de Sistemas. Uno automação, sistemas e inteligência artificial para transformar processos manuais em soluções eficientes.</p>
+          <p class="hero__lead"><strong>Transformo problemas operacionais em soluções tecnológicas.</strong> Sou estudante de Análise e Desenvolvimento de Sistemas, com experiência prática em processos administrativos, tecnologia, automação e desenvolvimento de soluções digitais. Tenho interesse em utilizar a tecnologia para simplificar processos, melhorar a produtividade e resolver problemas reais.</p>
           <div class="hero__actions">
-            <a href="#projetos" class="btn btn--gold">Ver projetos →</a>
-            <a href="#contato" class="btn btn--ghost">Fale comigo</a>
+            <a href="#projetos" class="btn btn--gold">Ver meus projetos →</a>
+            <a href="#contato" class="btn btn--ghost">Entrar em contato</a>
+            <a href="curriculo.pdf" class="btn btn--ghost" id="cvBtn" download hidden>Baixar currículo (PDF)</a>
+          </div>
+          <div class="social hero__social">
+            <a href="https://www.linkedin.com/in/dgeivison-dalmasso-1413a53ba/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://wa.me/5567992035229" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="mailto:dgdalmasso@gmail.com">E-mail</a>
           </div>
         </div>
         <div class="code-card" aria-hidden="true">
@@ -86,14 +99,17 @@
       </header>
       <div class="about">
         <div class="about__text">
-          <p class="reveal">Sou estudante de Análise e Desenvolvimento de Sistemas e desenvolvo soluções em automação, sistemas web, inteligência artificial e melhoria de processos empresariais.</p>
-          <p class="reveal">Minha trajetória na tecnologia vem da prática: explorar ferramentas, construir projetos e buscar soluções para problemas do dia a dia. Gosto de entender como os processos funcionam, achar gargalos e transformar ideias em mais eficiência, organização e produtividade.</p>
-          <p class="reveal"><strong>Meu objetivo:</strong> construir uma carreira sólida em tecnologia, criando soluções cada vez mais eficientes, inteligentes e acessíveis.</p>
+          <p class="reveal">Sou estudante de Análise e Desenvolvimento de Sistemas e entusiasta de tecnologia, automação e inovação.</p>
+          <p class="reveal">Minha trajetória profissional me proporcionou experiência em diferentes ambientes de trabalho, incluindo atendimento, operações comerciais, atividades administrativas e processos empresariais.</p>
+          <p class="reveal">Tenho facilidade com softwares, ferramentas digitais e aprendizado de novas tecnologias.</p>
+          <p class="reveal">Ao longo dos meus estudos, comecei a desenvolver projetos práticos envolvendo automação de processos, desenvolvimento web, dashboards, inteligência artificial e soluções voltadas à melhoria de processos empresariais.</p>
+          <p class="reveal">Gosto de identificar problemas, compreender como os processos funcionam e buscar soluções tecnológicas que tornem as atividades mais simples, organizadas e eficientes.</p>
+          <p class="reveal"><strong>Meu objetivo:</strong> construir uma carreira sólida na Tecnologia da Informação, contribuindo com projetos reais e evoluindo constantemente minhas habilidades.</p>
         </div>
         <div class="stats">
-          <div class="stat reveal"><div class="stat__n gold"><span data-count="10">0</span>+</div><div class="stat__l">anos de experiência profissional</div></div>
-          <div class="stat reveal"><div class="stat__n gold"><span data-count="12">0</span></div><div class="stat__l">projetos no portfólio</div></div>
-          <div class="stat reveal"><div class="stat__n gold"><span data-count="5">0</span></div><div class="stat__l">áreas de atuação</div></div>
+          <div class="stat reveal"><div class="stat__n gold"><span data-count="12" data-source="projects">12</span></div><div class="stat__l">projetos e iniciativas no portfólio</div></div>
+          <div class="stat reveal"><div class="stat__n gold"><span data-count="6" data-source="skills">6</span></div><div class="stat__l">áreas de competência técnica</div></div>
+          <div class="stat reveal"><div class="stat__n gold"><span data-count="4" data-source="jobs">4</span></div><div class="stat__l">ambientes de atuação profissional</div></div>
           <div class="stat reveal"><div class="stat__n gold">ADS</div><div class="stat__l">graduação em andamento</div></div>
         </div>
       </div>
@@ -120,8 +136,8 @@
     <!-- STACK -->
     <section id="stack" class="section container">
       <header class="section__head reveal">
-        <span class="tag">// 03. stack</span>
-        <h2>Linguagens e <span class="gold">ferramentas</span></h2>
+        <span class="tag">// 03. competências técnicas</span>
+        <h2>Competências <span class="gold">técnicas</span></h2>
         <div class="rule"></div>
       </header>
       <div class="skills">
@@ -131,13 +147,14 @@
         <article class="skill reveal"><div class="skill__icon">JS</div><h3>JavaScript</h3><p>Interatividade no navegador e lógica dos sistemas.</p></article>
         <article class="skill reveal"><div class="skill__icon">⚙</div><h3>Automações RPA</h3><p>Power Automate Desktop e PowerShell para eliminar tarefas manuais.</p></article>
       </div>
+      <div class="legend reveal" aria-label="Legenda dos níveis"><ul class="tags"><li data-level="p">Conhecimento prático</li><li data-level="d">Em desenvolvimento</li><li data-level="a">Em aprendizado</li></ul></div>
       <div class="toolgroups">
-        <div class="toolgroup reveal"><h3>Desenvolvimento</h3><ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>React (em aprendizado)</li><li>Interfaces web</li></ul></div>
-        <div class="toolgroup reveal"><h3>Automação</h3><ul class="tags"><li>Power Automate Desktop</li><li>PowerShell</li><li>Expressões regulares</li><li>Automação de interfaces</li></ul></div>
-        <div class="toolgroup reveal"><h3>Dados e gestão</h3><ul class="tags"><li>Dashboards</li><li>Indicadores</li><li>Relatórios</li><li>Planilhas</li></ul></div>
-        <div class="toolgroup reveal"><h3>Inteligência artificial</h3><ul class="tags"><li>Ferramentas de IA</li><li>Agentes</li><li>Atendimento automatizado</li></ul></div>
-        <div class="toolgroup reveal"><h3>Banco de dados e integrações</h3><ul class="tags"><li>Firebase</li><li>APIs</li><li>Autenticação</li><li>Integração de ferramentas</li></ul></div>
-        <div class="toolgroup reveal"><h3>Ferramentas</h3><ul class="tags"><li>Git e GitHub</li><li>Vercel</li><li>Google Workspace</li><li>Trello</li></ul></div>
+        <div class="toolgroup reveal"><h3>Suporte de TI</h3><ul class="tags"><li data-level="p" title="Conhecimento prático">Suporte a usuários</li><li data-level="p" title="Conhecimento prático">Configuração de softwares</li><li data-level="p" title="Conhecimento prático">Identificação e resolução de problemas</li><li data-level="p" title="Conhecimento prático">Noções de manutenção de computadores</li><li data-level="p" title="Conhecimento prático">Organização de recursos tecnológicos</li><li data-level="p" title="Conhecimento prático">Suporte operacional</li></ul></div>
+        <div class="toolgroup reveal"><h3>Desenvolvimento</h3><ul class="tags"><li data-level="p" title="Conhecimento prático">HTML</li><li data-level="p" title="Conhecimento prático">CSS</li><li data-level="p" title="Conhecimento prático">JavaScript</li><li data-level="a" title="Em aprendizado">React (em aprendizado)</li><li data-level="p" title="Conhecimento prático">Desenvolvimento de interfaces</li><li data-level="p" title="Conhecimento prático">Aplicações web</li></ul></div>
+        <div class="toolgroup reveal"><h3>Automação</h3><ul class="tags"><li data-level="p" title="Conhecimento prático">Power Automate Desktop</li><li data-level="p" title="Conhecimento prático">PowerShell</li><li data-level="p" title="Conhecimento prático">Automação de tarefas</li><li data-level="p" title="Conhecimento prático">Processamento de dados</li><li data-level="p" title="Conhecimento prático">Expressões regulares</li><li data-level="p" title="Conhecimento prático">RPA</li></ul></div>
+        <div class="toolgroup reveal"><h3>Inteligência artificial</h3><ul class="tags"><li data-level="p" title="Conhecimento prático">Ferramentas de IA</li><li data-level="d" title="Em desenvolvimento">Agentes inteligentes (em desenvolvimento)</li><li data-level="d" title="Em desenvolvimento">Automação de atendimento (em desenvolvimento)</li><li data-level="d" title="Em desenvolvimento">IA aplicada aos negócios (em desenvolvimento)</li><li data-level="d" title="Em desenvolvimento">Integração de ferramentas (em desenvolvimento)</li></ul></div>
+        <div class="toolgroup reveal"><h3>Banco de dados e integrações</h3><ul class="tags"><li data-level="a" title="Em aprendizado">Firebase (em aprendizado)</li><li data-level="a" title="Em aprendizado">APIs (em aprendizado)</li><li data-level="d" title="Em desenvolvimento">Autenticação (em desenvolvimento)</li><li data-level="d" title="Em desenvolvimento">Integração de serviços (em desenvolvimento)</li></ul></div>
+        <div class="toolgroup reveal"><h3>Ferramentas</h3><ul class="tags"><li data-level="p" title="Conhecimento prático">Git</li><li data-level="p" title="Conhecimento prático">GitHub</li><li data-level="p" title="Conhecimento prático">Vercel</li><li data-level="p" title="Conhecimento prático">Google Workspace</li><li data-level="p" title="Conhecimento prático">Trello</li><li data-level="p" title="Conhecimento prático">Ferramentas de IA</li></ul></div>
       </div>
     </section>
 
@@ -145,8 +162,8 @@
     <section id="carreira" class="band">
       <div class="section container">
         <header class="section__head reveal">
-          <span class="tag">// 04. trajetória</span>
-          <h2>Minha <span class="gold">trajetória</span></h2>
+          <span class="tag">// 04. experiência profissional</span>
+          <h2>Experiência <span class="gold">profissional</span></h2>
           <div class="rule"></div>
         </header>
         <p class="lead reveal">Minha aproximação com a tecnologia nasceu da curiosidade e da vontade de resolver problemas. Atendimento, organização e processos operacionais me deram visão prática, e os estudos em ADS me levaram a programação, automação e IA. Hoje uno essa vivência com tecnologia para construir soluções que fazem diferença.</p>
@@ -156,27 +173,24 @@
           <div class="timeline__fill" id="timelineFill"></div>
 
           <article class="step reveal"><span class="step__dot"></span><div class="step__body">
-            <span class="step__date">Atual</span><h3>Assistente Administrativo</h3><p class="step__org">Grupo R Energia Solar</p>
-            <ul><li>Desenvolvi o portal interno da empresa e cuido da evolução contínua.</li><li>Criei um bot de WhatsApp para gestão da frota de veículos.</li><li>Apoio o pós-venda, as compras e a diretoria nas rotinas administrativas.</li></ul>
+            <span class="step__date">Atual</span><h3>Assistente Administrativo | Tecnologia e Processos</h3><p class="step__org">Grupo R Energia Solar</p>
+            <p class="step__desc">Atuação em processos administrativos e desenvolvimento de soluções tecnológicas para apoiar a organização e a produtividade empresarial.</p>
+            <ul><li>Desenvolvimento e evolução de portal corporativo.</li><li>Automação de processos relacionados à gestão da frota.</li><li>Soluções para consultas de informações veiculares.</li><li>Desenvolvimento de dashboards gerenciais.</li><li>Organização e processamento de informações.</li><li>Identificação de oportunidades de melhoria.</li><li>Apoio aos processos administrativos, ao pós-venda, às compras e à diretoria.</li></ul>
           </div></article>
 
           <article class="step reveal"><span class="step__dot"></span><div class="step__body">
-            <span class="step__date">Set/2022 — Set/2025</span><h3>Instalador de Som e Acessórios</h3><p class="step__org">Connect CG</p>
-            <ul><li>Instalação e configuração de equipamentos eletrônicos automotivos.</li><li>Diagnóstico de falhas e suporte ao cliente pós-instalação.</li></ul>
+            <span class="step__date">Set/2022 — Set/2025</span><h3>Instalador de Som e Acessórios Veiculares</h3><p class="step__org">Connect CG</p>
+            <ul><li>Instalação e configuração de equipamentos eletrônicos automotivos.</li><li>Interpretação de diagramas elétricos e eletrônicos.</li><li>Identificação e resolução de problemas técnicos.</li><li>Atendimento ao cliente e suporte pós-instalação.</li><li>Organização de procedimentos técnicos.</li></ul>
           </div></article>
 
           <article class="step reveal"><span class="step__dot"></span><div class="step__body">
             <span class="step__date">Out/2019 — Jun/2026</span><h3>Sacristão</h3><p class="step__org">Paróquia Cristo Luz dos Povos</p>
-            <ul><li>Suporte de informática: configuração e manutenção de computadores.</li><li>Suporte técnico de som e projeção durante celebrações e eventos.</li></ul>
+            <ul><li>Organização de atividades e apoio operacional.</li><li>Suporte de informática: configuração e manutenção de computadores.</li><li>Suporte técnico de som e projeção durante celebrações e eventos.</li><li>Organização de recursos e atendimento de demandas internas.</li></ul>
           </div></article>
 
           <article class="step reveal"><span class="step__dot"></span><div class="step__body">
             <span class="step__date">Fev/2015 — Abr/2018</span><h3>Operador Comercial</h3><p class="step__org">Supermercado Nunes</p>
-            <ul><li>Atendimento ao cliente e gestão operacional do setor.</li><li>Coordenação do time de repositores.</li></ul>
-          </div></article>
-
-          <article class="step reveal"><span class="step__dot step__dot--edu"></span><div class="step__body">
-            <span class="step__date">Cursando</span><h3>Análise e Desenvolvimento de Sistemas</h3><p class="step__org">Anhanguera</p>
+            <ul><li>Atendimento ao cliente.</li><li>Apoio às atividades comerciais e gestão operacional do setor.</li><li>Organização de processos operacionais.</li><li>Orientação e coordenação das atividades da equipe.</li></ul>
           </div></article>
         </div>
       </div>
@@ -200,12 +214,25 @@
       <div class="projects" id="projectGrid"></div>
     </section>
 
+    <!-- FORMAÇÃO -->
+    <section id="formacao" class="section container">
+      <header class="section__head reveal">
+        <span class="tag">// 06. formação acadêmica</span>
+        <h2>Formação <span class="gold">acadêmica</span></h2>
+        <div class="rule"></div>
+      </header>
+      <div class="skills">
+        <article class="skill reveal"><div class="skill__icon">ADS</div><h3>Análise e Desenvolvimento de Sistemas</h3><p>Anhanguera <span class="status">Em andamento</span></p>
+          <ul class="tags"><li>Lógica de programação</li><li>Desenvolvimento de software</li><li>Banco de dados</li><li>Engenharia de software</li><li>Análise de sistemas</li><li>Metodologias ágeis</li><li>Infraestrutura de TI</li></ul></article>
+      </div>
+    </section>
+
     <!-- OBJETIVOS -->
     <section id="objetivos" class="band">
       <div class="section container">
         <header class="section__head reveal">
-          <span class="tag">// 06. objetivos</span>
-          <h2>Diferenciais e <span class="gold">objetivos</span></h2>
+          <span class="tag">// 07. objetivo profissional</span>
+          <h2>Buscando novos desafios em <span class="gold">Tecnologia da Informação.</span></h2>
           <div class="rule"></div>
         </header>
         <div class="goals">
@@ -217,10 +244,11 @@
           </div>
           <div class="reveal">
             <h3 class="sub">O que busco</h3>
-            <p class="goals__text">Oportunidades em tecnologia para desenvolver minhas habilidades, participar de projetos, aprender com profissionais experientes e contribuir na construção de soluções tecnológicas.</p>
+            <p class="goals__text">Busco uma oportunidade profissional na área de Tecnologia da Informação para aplicar meus conhecimentos, desenvolver minhas habilidades técnicas e contribuir com soluções que gerem resultados. Tenho interesse em integrar equipes de tecnologia, participar de projetos reais e continuar evoluindo profissionalmente.</p>
             <ul class="tags tags--lg">
-              <li>Desenvolvimento de sistemas</li><li>Desenvolvimento web</li><li>Suporte de TI</li><li>Automação de processos</li><li>RPA</li><li>Inteligência artificial</li><li>Análise de dados</li><li>Sistemas corporativos</li><li>Integração de ferramentas</li>
-            </ul>
+              <li>Suporte de TI</li><li>Desenvolvimento Web</li><li>Sistemas</li><li>Automação</li><li>RPA</li><li>Inteligência Artificial</li><li>Tecnologia empresarial</li></ul>
+            <h3 class="sub sub--next">Posições de interesse</h3>
+            <ul class="tags tags--lg"><li>Suporte de TI</li><li>Assistente de Tecnologia</li><li>Analista de Suporte Júnior</li><li>Assistente de Sistemas</li><li>Desenvolvedor Web Júnior</li><li>Automação de Processos</li><li>Analista de Automação Júnior</li></ul>
           </div>
         </div>
       </div>
@@ -231,13 +259,14 @@
       <div class="grid-bg"></div>
       <div class="glow glow--c"></div>
       <div class="contact__inner reveal">
-        <span class="tag">// 07. contato</span>
+        <span class="tag">// 08. contato</span>
         <h2>Vamos criar algo <span class="gold">útil</span> juntos?</h2>
-        <p>Disponível para oportunidades, projetos e conexões na área de tecnologia. Campo Grande/MS e remoto.</p>
-        <a href="https://wa.me/5567992035229" class="btn btn--gold btn--lg">WhatsApp</a><br>
-        <a href="mailto:dgdalmasso@gmail.com" class="btn btn--gold btn--lg">dgdalmasso@gmail.com</a>
+        <p>Tem uma oportunidade, projeto ou desafio tecnológico? Vamos conversar. Campo Grande/MS e remoto.</p>
+        <a href="https://wa.me/5567992035229" class="btn btn--gold btn--lg" target="_blank" rel="noopener">Conversar pelo WhatsApp</a><br>
+        <a href="mailto:dgdalmasso@gmail.com" class="btn btn--gold btn--lg">Enviar e-mail</a>
         <div class="social">
-          <a href="https://www.linkedin.com/in/dgeivison-dalmasso-1413a53ba/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/dgeivison-dalmasso-1413a53ba/" target="_blank" rel="noopener">Acessar LinkedIn</a>
+          <a href="mailto:dgdalmasso@gmail.com">dgdalmasso@gmail.com</a>
         </div>
       </div>
     </section>

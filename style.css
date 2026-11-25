@@ -321,7 +321,7 @@ main, .footer { position: relative; z-index: 2; }
   .section { padding-block: 5rem; }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .burger { display: flex; }
   .nav__links {
     position: fixed; inset: 0 0 auto 0; top: 65px; flex-direction: column; align-items: flex-start; gap: 1.25rem;
@@ -392,3 +392,18 @@ main, .footer { position: relative; z-index: 2; }
 .sub { font-size: 1.4rem; margin-bottom: 1.25rem; }
 .goals__text { margin-bottom: 1.25rem; color: var(--muted-fg); max-width: 34rem; }
 @media (max-width: 900px) { .goals { grid-template-columns: 1fr; } .modal__box { padding: 1.75rem; } }
+
+/* ============ Acréscimos de conteúdo (mesmos tokens e padrões) ============ */
+.hero__lead strong { color: var(--fg); }
+.hero__social { justify-content: flex-start; margin-top: 1.75rem; animation: fadeUp 0.8s 2.1s both; }
+.step__desc { margin-top: 0.75rem; color: var(--muted-fg); }
+.legend { margin-top: 3rem; }
+.legend .tags { margin-top: 0; }
+.tags li[data-level="p"] { border-color: color-mix(in oklab, var(--primary) 45%, transparent); }
+.tags li[data-level="d"] { border-color: color-mix(in oklab, var(--primary) 22%, transparent); }
+.tags li[data-level="a"] { border-style: dashed; }
+.skill .status { margin-left: 0.5rem; }
+.skill .tags { margin-top: 1.25rem; }
+.sub--next { margin-top: 2rem; }
+@media (max-width: 900px) { .goals .sub { font-size: 1.25rem; } }
+[hidden] { display: none !important; }
